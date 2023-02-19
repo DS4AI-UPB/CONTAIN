@@ -3,7 +3,7 @@ CONTAIN: A Community-based Algorithm for Network Immunization
 
 ## Article:
 
-Özgur Coban, Ciprian-Octavian Truică, Elena-Simona Apostol. *CONTAIN: A Community-based Algorithm for Network Immunization*. Arxiv, 2023. 
+Özgur Coban, Ciprian-Octavian Truică, Elena-Simona Apostol. *CONTAIN: A Community-based Algorithm for Network Immunization*. Arxiv, 2023. Link: [https://arxiv.org/abs/2302.01756](https://arxiv.org/abs/2302.01756)
 
 ## Code 
 
