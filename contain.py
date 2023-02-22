@@ -24,7 +24,7 @@ def Contain(G,seeds, budget, r, dr):
             return [], -1
         r += dr
 
-# Contain, NetShield, and SparseShield usage
+# CONTAIN, NetShield, and SparseShield usage
 if __name__ == "__main__":
     for f in  ['tvshow_edges.csv', 'politician_edges.csv', 'government_edges.csv', 'public_figure_edges.csv', 'athletes_edges.csv', 'company_edges.csv', 'new_sites_edges.csv', 'artist_edges.csv', 'artist_edges.csv',]:
         G = nx.read_edgelist(os.path.join("data", f), delimiter=',', create_using=nx.Graph(), nodetype=int)
