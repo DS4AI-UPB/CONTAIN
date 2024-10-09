@@ -19,9 +19,8 @@ def Contain(G,seeds, budget, r, dr):
         ratios = [(x, len(x)/len(seed_group)) for x in intersects]
         if len(ratios) >= budget:
             sorted_ratios = sorted(ratios, key=lambda item:item[1], reverse=True)[0:budget]
+            print(r)
             return sorted_ratios, r
-        else:
-            return [], -1
         r += dr
 
 # CONTAIN, NetShield, and SparseShield usage
